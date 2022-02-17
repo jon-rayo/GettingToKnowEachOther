@@ -1,9 +1,21 @@
-center {
-    text-align: center;
+html {
+    background-color: rgb(223, 223, 252);
+}
+img {
+    margin: auto;
+    display: block;
+    border: 2px solid black;
+    margin-top: 20px;
+    height: 400px;
+    width: 550px;
+    border-radius: 20px;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-left: auto;
+.theTitle {
+    font-size: 26px;
+    font-family: verdana;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    border-radius: 50px
 }
