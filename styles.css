@@ -19,3 +19,22 @@ img {
     text-align: center;
     border-radius: 50px
 }
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: verdana;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
