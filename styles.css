@@ -1,7 +1,9 @@
 html {
     background-color: rgb(223, 223, 252);
 }
-img {
+
+/* group image style */
+.groupimg {
     margin: auto;
     display: block;
     border: 2px solid black;
@@ -32,8 +34,7 @@ img {
 
 @media screen and (max-width: 600px) {
     .column {
-        width: 100%;
-    }
+        width: 100%; }
 }
 
 h1 {
@@ -69,4 +70,25 @@ a {
 
 a:hover {
     color: grey;
+}
+
+/* git hub image map history caption style */
+.caption {
+    font-family: georgia;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: -1px;
+    font-style: italic;
+    opacity: 50%;
+}
+
+/* git hub image map history style */
+.git {
+    margin: auto;
+    display: block;
+    border: 2px solid black;
+    margin-top: -1px;
+    padding: 0;
+    border-radius: 20px;
 }
